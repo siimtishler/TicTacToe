@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>TIC TAC TOE</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/TICTACTOE/tictactoe.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@400;700;900&display=swap"
+		rel="stylesheet">
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+				<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="game">
+			<div class="title">
+				TIC TAC TOE
+			</div>
+			<div class="instructions">
+				Press a box to start game<br>Player 1: X<br>Player 2: O<br>X starts
+			</div>
+
+			<div class="game-grid">
+				<input class="square" type="button" id="b0">
+				<input class="square" type="button" id="b1">
+				<input class="square" type="button" id="b2">
+				<input class="square" type="button" id="b3">
+				<input class="square" type="button" id="b4">
+				<input class="square" type="button" id="b5">
+				<input class="square" type="button" id="b6">
+				<input class="square" type="button" id="b7">
+				<input class="square" type="button" id="b8">
+			</div>
+			<div id="player-turn">X's turn!</div>
+			<button class="restart-button" onclick="restart();">Restart</button>
+		</div>
+ 
+		<script src="tictactoe.js" async defer></script>
+	</body>
+</html>
